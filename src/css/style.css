@@ -10,6 +10,7 @@ form {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    position: relative;
 }
 
 input {
@@ -98,7 +99,8 @@ p {
 
 .loader {
     opacity: 0;
-    position: relative;
+    position: absolute;
+    bottom: -32px;
     width: 45px;
     height: 45px;
     display: flex;
