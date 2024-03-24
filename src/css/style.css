@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     max-width: 1440px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 form {
@@ -59,23 +59,24 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
 }
 
 .gallery-item {
     margin: 0;
     box-sizing: border-box;
-    width: calc((100% - 96px) / 5);
+    width: calc((100% - 360px) / 3);
     list-style: none;
-    border: solid 1px black;
+    border: solid 1px rgba(128, 128, 128, 1);
     display: flex;
     flex-direction: column;
+    
 }
 
 .gallery-image {
     margin: 0;
     width: 100%;
-    height: 150px;
+    height: 152px;
     object-fit: cover;
 }
 
